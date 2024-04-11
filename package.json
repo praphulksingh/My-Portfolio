@@ -10,10 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
     "@react-three/drei": "^9.105.3",
     "@react-three/fiber": "^8.16.1",
     "@types/three": "^0.163.0",
     "framer-motion": "^11.0.25",
+    "math-random": "^2.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.3",
