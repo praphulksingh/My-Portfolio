@@ -1,10 +1,10 @@
-import React from 'react';
 import {Tilt} from 'react-tilt'
 import {motion} from 'framer-motion';
 import {styles} from '../styles';
 import { services } from '../constants/constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import SectionWrapper from '../hoc/SectionWrapper';
+import HouseCanvas from './canvas/sea_house';
 
 
 const ServiceCard=({index, title, icon})=>{
@@ -36,41 +36,38 @@ const About = () => {
  
   return (
     <>
-    <motion.div variants={textVariant()}>
-      <p className={styles.sectionSubText}>Introduction</p>
-      <h2 className={styles.sectionHeadText}>Overview</h2>
-    </motion.div>
+      <motion.div variants={textVariant()}>
+        <p className={styles.sectionSubText}>Introduction</p>
+        <h2 className={styles.sectionHeadText}>Overview</h2>
+      </motion.div>
 
-    <motion.p 
-    variants={fadeIn("","", 0.1, 1)}
-    className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
-    >
-      My name is Praphul Kumar and I am a recent graduate with degree in Bachalor's Of Computer Application (BCA)
-      from CT college under IKGPTU University.
-      During my studies, I developed a strong foundation in DSA, HTML, CSS, JavaScript, TypeScript, React, Next, Node, Express, MongoDB through course-work and projects.
-      I am particularly passionate about Full Stack Web Development. Infact , I have completed a summer tarining in Web Development.
-      Done some of the projects in web development that are listed below.
-      1. Content Management System (CMS)
-      2. E-Commerce Website
-      3. Portfolio Website
-      4. Blog Website
-      5. Social Media Website
-      6. E-Learning Website
+      <motion.div className="flex">
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        >
+          My name is Praphul Kumar and I am a recent graduate with degree in
+          Bachalor's Of Computer Application (BCA) from IKGPTU University. <br/>
+          During my studies, I developed a strong foundation in DSA,
+          HTML, CSS, JavaScript, TypeScript, React, Next, Node, Express, MongoDB
+          through course-work and projects.<br/> I am particularly passionate about
+          Full Stack Web Development. Infact , I have completed a summer
+          tarining in Web Development. Done some of the projects in web
+          development that are listed below.<br/>1. Portfolio Website <br/>2. Blog Website <br/>3. Social Media Website<br/>I am highly motivated and eager to
+          learn new technologies and skills. I am a quick learner and I am
+          always ready to learn new things. I am a team player and I am always
+          ready to help others.
+        </motion.p>
+        {/* <HouseCanvas /> */}
+      </motion.div>
 
-      I am highly motivated and eager to learn new technologies and skills.
-      I am a quick learner and I am always ready to learn new things.
-
-      I am a team player and I am always ready to help others.
-
-    </motion.p>
-
-    <div className='mt-20 flex flex-wrap gap-10'>
-    {services.map((services, index)=>(
-      <ServiceCard key={services.title} index={index} {...services}/>
-    ))}
-    </div>
+      <div className="mt-20 flex flex-wrap gap-10">
+        {services.map((services, index) => (
+          <ServiceCard key={services.title} index={index} {...services} />
+        ))}
+      </div>
     </>
-  )
+  );
 }
 
 export default SectionWrapper(About,"about");

@@ -8,6 +8,7 @@ import {
   html,
   css,
   reactjs,
+  expressjs,
   redux,
   tailwind,
   nodejs,
@@ -42,7 +43,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web Designer",
     icon: web,
   },
   {
@@ -50,12 +51,12 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Web Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Web Frontend Developer",
+    icon: web,
   },
 ];
 
@@ -97,21 +98,21 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Express JS",
+    icon: expressjs,
   },
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
@@ -198,16 +199,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "My PortFolio",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform with 3-D effects that allows peoples to search and get information about my skills and projects.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "react-threejs",
         color: "green-text-gradient",
       },
       {
@@ -216,49 +217,49 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/praphulksingh/My-Portfolio",
   },
   {
-    name: "Job IT",
+    name: "Blog WebSite",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+     "A web application that allows users to search and read blogs posted by experts, as well as write their own blogs.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "AppWrite",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/praphulksingh/Blog-website",
   },
   {
-    name: "Trip Guide",
+    name: "Social Media WebSite",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A web application that allows users to post images, videos and text over the application and also can like or dislike it.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
+      // {
+      //   name: "",
+      //   color: "green-text-gradient",
+      // },
       {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/praphulksingh/youtubeBackend",
   },
 ];
 
