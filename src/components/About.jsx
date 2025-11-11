@@ -46,7 +46,7 @@ const About = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          My name is Praphul Kumar and I am a recent graduate with degree in
+          My name is Praphul Kumar Singh and I am a recent graduate with degree in
           Bachalor's Of Computer Application (BCA) from IKGPTU University. <br/>
           During my studies, I developed a strong foundation in DSA,
           HTML, CSS, JavaScript, TypeScript, React, Next, Node, Express, MongoDB
