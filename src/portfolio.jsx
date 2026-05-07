@@ -17,7 +17,7 @@ export const greeting = {
     "Frontend Developer..", 1000,
   ],
   subTitle: "A passionate Developer bridging modern frontend design with robust full-stack architecture, cloud computing and automated DevOps practices.",
-  resumeLink: "/images/myResume.pdf", 
+  resumeLink: "/images/PraphulResume.pdf", 
   heroImage: "/images/devops-activity.svg" 
 };
 
@@ -254,10 +254,10 @@ export const experience = {
   title: "Work Experience",
   experiences: [
     {
-      title: "Junior Web Developer Internship",
-      company: "xyz company",
-      duration: "Mar 2026 - Jul 2026",
-      location: "Remote / On-site",
+      title: "Freelancer Web Developer",
+      // company: "xyz company",
+      duration: "Dec 2023 - Present",
+      location: "Remote ",
       description: "Gained hands-on experience in full stack web development, optimizing front-end performance, and contributing to core product features.",
     },
     {
