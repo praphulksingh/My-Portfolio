@@ -246,7 +246,22 @@ export const projectsHeader = {
         { name: "framer-motion", color: "text-purple-500" },
         { name: "vite", color: "text-yellow-400" }
       ]
-    }
+    },
+    {
+      title: "ResumeStrike - ATS Optimizer",
+      description: "A serverless AI application that dynamically tailors resumes and generates cover letters to bypass ATS filters.",
+      fullDescription: "A 100% client-side, AI-powered ATS Resume Optimizer built to solve the modern job search pipeline.\n\n📄 Smart Parsing: Integrates Google's Gemini 2.5 Flash multimodal AI to directly process Base64-encoded PDFs without a backend server, ensuring fast processing and data privacy.\n\n✨ Live Feedback: Engineered a custom Regex engine for dynamic job-description keyword highlighting and automated ATS match scoring.\n\n✍️ Seamless Editing: Utilized HTML5 contentEditable for a WYSIWYG editing experience, backed by React useEffect hooks and browser localStorage for robust session persistence and auto-saving.",
+      // You can take a screenshot of the app and save it in your public/images folder
+      image: '/images/resumatch.png?q=80&w=1000&auto=format&fit=crop', 
+      githubLink: "https://github.com/praphulksingh/resumatch-ai", // Update with your actual repo name
+      liveLink: "", // Add your Vercel/Netlify link once deployed
+      tags: [
+        { name: "react", color: "text-[#61DAFB]" },
+        { name: "gemini ai", color: "text-blue-500" },
+        { name: "tailwind", color: "text-[#38B2AC]" },
+        { name: "vite", color: "text-yellow-400" }
+      ]
+    },
   ]
 };
 
