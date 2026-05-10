@@ -152,7 +152,7 @@ export const certificationsInfo = {
       date: "Sep 2025", 
       logo: <FaDocker className="text-[#2496ED]" />,
       relatedField: "DevOps, Virtualization & API",
-      image: "/images/Screenshot 2026-04-28 004953.jpg"
+      image: "/images/cloudVirtualization.png"
     },
     { 
       title: "Cloud-Based Testing Platforms Getting Started", 
@@ -160,7 +160,7 @@ export const certificationsInfo = {
       date: "Feb 2026", 
       logo: <FaCloud className="text-blue-300" />,
       relatedField: "Cloud & Testing",
-      image: "/images/Screenshot 2026-04-28 005040.jpg"
+      image: "/images/Screenshot 2026-04-28 005040.png"
     },
     { 
       title: "Angular", 
@@ -253,13 +253,28 @@ export const projectsHeader = {
       fullDescription: "A 100% client-side, AI-powered ATS Resume Optimizer built to solve the modern job search pipeline.\n\n📄 Smart Parsing: Integrates Google's Gemini 2.5 Flash multimodal AI to directly process Base64-encoded PDFs without a backend server, ensuring fast processing and data privacy.\n\n✨ Live Feedback: Engineered a custom Regex engine for dynamic job-description keyword highlighting and automated ATS match scoring.\n\n✍️ Seamless Editing: Utilized HTML5 contentEditable for a WYSIWYG editing experience, backed by React useEffect hooks and browser localStorage for robust session persistence and auto-saving.",
       // You can take a screenshot of the app and save it in your public/images folder
       image: '/images/resumatch.png?q=80&w=1000&auto=format&fit=crop', 
-      githubLink: "https://github.com/praphulksingh/resumatch-ai", // Update with your actual repo name
+      githubLink: "https://github.com/praphulksingh/ResumeStrike", // Update with your actual repo name
       liveLink: "", // Add your Vercel/Netlify link once deployed
       tags: [
         { name: "react", color: "text-[#61DAFB]" },
         { name: "gemini ai", color: "text-blue-500" },
         { name: "tailwind", color: "text-[#38B2AC]" },
         { name: "vite", color: "text-yellow-400" }
+      ]
+    },
+    {
+      title: "Neon Arcade Game Center",
+      description: "A fully responsive, retro-themed web arcade featuring 6 classic mini-games built with HTML5 Canvas, CSS Grid, and Vanilla JavaScript.",
+      fullDescription: "A cohesive, retro-cyberpunk arcade platform showcasing a mastery of DOM manipulation, algorithmic logic, and 2D frame physics.\n\n🎮 Game Ecosystem: Features 6 fully playable classics—Snake, Tic-Tac-Toe, Sudoku, Brick Breaker, Pong (vs. AI), and Space Invaders.\n\n✨ Modern UI/UX: Engineered a unified CSS variable design system with neon glow effects, fully responsive CSS Grid layouts, and a custom JavaScript Toast Notification engine for a seamless user experience.\n\n🧠 Algorithmic Mastery: Implemented complex 2D array management for collision detection, a dynamic Sudoku puzzle generator, and a recursive backtracking algorithm for the interactive Sudoku Solver.\n\n⚡ Performance: Utilized the HTML5 Canvas API and requestAnimationFrame for smooth, 60fps rendering in the physics-based games without external libraries.",
+      // Pro-Tip: Take a screenshot of the main dashboard grid and save it to your images folder
+      image: "/images/games.png?q=80&w=1000&auto=format&fit=crop", 
+      githubLink: "https://github.com/praphulksingh/Game-Center", // Update with your actual repo name
+      liveLink: "", // Add your live link if you host it on Netlify/Vercel/GitHub Pages
+      tags: [
+        { name: "vanilla js", color: "text-yellow-400" },
+        { name: "html5 canvas", color: "text-orange-500" },
+        { name: "css grid", color: "text-blue-400" },
+        { name: "algorithms", color: "text-purple-400" },
       ]
     },
   ]
