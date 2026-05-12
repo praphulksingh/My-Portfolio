@@ -252,7 +252,7 @@ export const projectsHeader = {
       description: "A serverless AI application that dynamically tailors resumes and generates cover letters to bypass ATS filters.",
       fullDescription: "A 100% client-side, AI-powered ATS Resume Optimizer built to solve the modern job search pipeline.\n\n📄 Smart Parsing: Integrates Google's Gemini 2.5 Flash multimodal AI to directly process Base64-encoded PDFs without a backend server, ensuring fast processing and data privacy.\n\n✨ Live Feedback: Engineered a custom Regex engine for dynamic job-description keyword highlighting and automated ATS match scoring.\n\n✍️ Seamless Editing: Utilized HTML5 contentEditable for a WYSIWYG editing experience, backed by React useEffect hooks and browser localStorage for robust session persistence and auto-saving.",
       // You can take a screenshot of the app and save it in your public/images folder
-      image: '/images/resumatch.png?q=80&w=1000&auto=format&fit=crop', 
+      image: '/images/ResumeStrike.png?q=80&w=1000&auto=format&fit=crop', 
       githubLink: "https://github.com/praphulksingh/ResumeStrike", // Update with your actual repo name
       liveLink: "", // Add your Vercel/Netlify link once deployed
       tags: [
@@ -284,17 +284,24 @@ export const experience = {
   title: "Work Experience",
   experiences: [
     {
+      title: "Web Developer Intern",
+      company: "Agrix Agrotech Private Limited",
+      duration: "Feb 2026 - May 2026",
+      // location: "Remote ",
+      description: "Developed and optimized responsive web applications and dashboard features using React.js, Node.js and databases, improving user experience and supporting scalable digital platform operations.Worked on API integration, backend functionality and cloud-based deployment workflows while gaining hands-on experience in real-world product development and performance optimization.Collaborated on modern web solutions involving data management, automation and secure application development, strengthening skills in full-stack development, debugging and system scalability.",
+    },
+    {
       title: "Freelancer Web Developer",
       // company: "xyz company",
       duration: "Dec 2023 - Present",
-      location: "Remote ",
+      // location: "Remote ",
       description: "Gained hands-on experience in full stack web development, optimizing front-end performance, and contributing to core product features.",
     },
     {
       title: "Web Developer Trainee",
       company: "O7 Services",
       duration: "45 Days",
-      location: "Training",
+      // location: "Training",
       description: "Completed an intensive training program focused on modern web development architectures, practical implementations, and UI/UX design.",
     }
   ]
